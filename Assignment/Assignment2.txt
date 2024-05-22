@@ -1,0 +1,56 @@
+ANSWE ONE
+The HTML body element is the container for all the content that is displayed in a web page.
+ Here are 10 elements that are commonly written inside a body element:
+1) Heading elements (h1 - h6)
+2) Paragraph element (p)
+3) Image element (img)
+4)Anchor element (a):
+5)Unordered list element (ul)
+6)rdered list element (ol)
+7)List item element (li)
+8)Table element (table)
+9)Form element (form)
+10)Div element (div)
+
+ANSWER 2
+In HTML, attributes are special additions made to the opening tag of 
+an element that provide additional information about how to display or behave. 
+ They typically come in name/value pairs separated by an equals sign and enclosed in quotes, 
+like this:  name="value"
+
+Here are 7 common HTML attributes:
+
+1) CLASS attribute
+2) ID attribute
+3)SRC attribute
+4)alt attribute
+5)style attribute
+6)width & height (various elements)
+7) target attribute
+
+ANSWER 3
+To style elements in HTML,
+ you can use CSS (Cascading Style Sheets).
+  CSS allows you to control the appearance of HTML elements
+   by specifying rules that define how they should look.
+    You can apply CSS styles to elements using various methods:
+ 1)  Inline Styles:  You can apply styles directly to an element using the style attribute.
+  For example: <p style="color: blue;">This is a blue paragraph.</p>
+
+2) Internal Stylesheet: You can define styles within the <style> tags in the <head> section of your HTML document.
+ For example: 
+ <head>
+  <style>
+    p {
+      color: blue;
+    }
+  </style>
+
+
+3) External Stylesheet:You can create a separate CSS file with .css extension and link it to your HTML document 
+using the <link>
+
+
+
+
+
