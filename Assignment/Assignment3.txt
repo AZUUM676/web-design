@@ -1,1 +1,46 @@
 Assignment three
+ANSWER 1
+n HTML, tables are used to display data in a structured format on web pages.
+ They are helpful for organizing information into rows and columns, making it easier
+  for users to read and understand the data presented. 
+  
+To create a
+ table in HTML, you can use the following code as a basic example:
+
+html
+<table>
+  <tr>
+    <th>Header 1</th>
+    <th>Header 2</th>
+  </tr>
+  <tr>
+    <td>Data 1</td>
+    <td>Data 2</td>
+  </tr>
+</table>
+
+
+In this code:
+- <table> defines the start of the table.
+- <tr> defines a row within the table.
+- <th> defines a header cell in the table.
+- <td> defines a standard cell in the table.
+We can customize the number of
+ rows and columns by adding more <tr>,
+  <th>, or <td> elements as needed.
+
+  ANSWER 2
+In HTML, the <form> tag is like a container that holds different
+ form elements like input fields, checkboxes, radio buttons, and buttons. 
+HTML forms are simple form that has been used to collect data from the users.
+It's used to create interactive 
+sections on a webpage where users can input and submit data
+
+ANSWER 3
+To include a video on a web page, we can use the <video> tag in HTML.
+ This tag allows you to embed videos directly onto your webpage. 
+we can specify the video source using the src attribute within the <video> tag
+
+
+
+

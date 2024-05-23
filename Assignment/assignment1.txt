@@ -1,0 +1,60 @@
+ANSWER 1
+
+A coder is a person who writes and implements 
+code, usually focusing on a specific task or problem.
+ They may not have a deep understanding of the underlying concepts.
+
+
+Programmer: Similar to a coder,
+ a programmer is someone who writes code. 
+ However, the term "programmer" can imply a higher level 
+ of skill or expertise. Programmers typically have a deeper 
+ understanding of programming languages, algorithms, and software development concepts.
+
+A developer is someone who not only writes code but also 
+designs and builds software applications. They have a comprehensive 
+understanding of the software development process.
+
+A software engineer is a professional who 
+applies engineering principles to the design,
+ development, and maintenance of software systems. T
+ hey have a strong foundation in computer science
+  and are skilled in problem-solving and creating robust and scalable software solutions.
+
+ANSWER 2
+
+The difference between 
+front-end and back-end is like the difference between 
+what you see and what happens behind the scenes.
+
+Front-end development focuses on the part of a website or
+ application that users interact with directly.
+ It includes designing and building the user interface,
+  handling user interactions, and ensuring a smooth user experience.
+
+Back-end development, on the other hand, deals with the behind-the-scenes 
+functionality of a website or application. 
+It involves managing databases, handling server-side logic,
+ and ensuring that data is processed and delivered to the front-end.
+
+
+When it comes to front-end development, there are several
+ technologies that are commonly used. Here are three popular ones:
+
+HTML (Hypertext Markup Language)
+
+CSS (Cascading Style Sheets)
+
+ JavaScript
+
+
+  three technologies commonly used in backend development:
+Python, JavaScript (Node. js), Ruby.
+
+ANSWER 3
+
+A code version is a specific snapshot of a software's code at a particular
+ point in time. We use version control systems like Git 
+ to manage and track these code versions.
+
+
