@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="stylesheet" href="bootsrap/js/bootstrap.min.js" />
     <style>
       .thick {
         color: blue;
@@ -23,6 +24,66 @@
     <title>Document</title>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">web-design</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                aria-current="page"
+                href="index_page.html"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link disabled">About us</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="About.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="unorderd.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="ordredlist.html">Services</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Blog
+              </a>
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Blog 1</a></li>
+                <li><a class="dropdown-item" href="#">Blog 2</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+
     <p id="thin">the image on the home page</p>
     <h1 class="thick">About page</h1>
     <a href="index_page.html">index_page</a>
