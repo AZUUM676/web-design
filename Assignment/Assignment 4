@@ -1,0 +1,45 @@
+Answer 1
+To link pages in HTML, you can use the anchor <a> tag. Here's a theoretical way to link pages in HTML:
+Create the Anchor Tag: Use the <a> tag to create a link. Inside the tag, specify the destination page's URL in the href attribute. For example:
+html
+<a href="page2.html">Go to Page 2</a>
+Relative Path: If the page you want to link to is in the same directory as the current page, you can simply provide the file name in the href attribute. If it's in a different directory, you can specify the path accordingly.
+
+3. Absolute Path: If the page is on a different website, you can use the full URL in the href attribute. For example:
+   html
+   <a href="https://www.example.com/page2.html">Go to Page 2</a>
+
+   ANSWER 2
+   To apply external CSS to pages in HTML, you can follow these theoretical steps:
+
+1. Create a CSS File: First, create a separate CSS file with the styles you want to apply to your HTML pages. Save this file with a .css extension. For example, you can create a file named styles.css.
+
+1. Link the CSS File to HTML: In your HTML file, within the <head> section, use the <link> tag to link the external CSS file. Specify the path to your CSS file in the href attribute. For example:
+html
+<link rel="stylesheet" type="text/css" href="styles.css">
+
+ANSWER 3
+
+To put the 3 different types of selectors in HTML and CSS, you can follow these theoretical steps:
+
+1. Classes: To apply styles to elements with a specific class, you can define a class in your CSS file and then assign that class to HTML elements. Here's how you can do it:
+
+   - CSS: Define a class in your CSS file. For example:
+     css
+     .my-class {
+     color: blue;
+     }
+
+     2. ID: IDs are used to uniquely identify an element on a page. To style an element by its ID, you can follow these steps:
+
+   - CSS: Define styles for an ID in your CSS file. For example:
+     css
+     #my-id {
+     font-size: 20px;
+     }
+     Tag Name: You can apply styles to all elements of a specific tag by targeting the tag name in CSS. Here's how you can do it:
+   - CSS: Define styles for a tag name in your CSS file. For example:
+     css
+     p {
+     font-family: Arial, sans-serif;
+     }

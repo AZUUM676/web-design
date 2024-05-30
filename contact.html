@@ -4,20 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>contact</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-
-            <br><br>
-            <label for="first_name">Last name:</lable>
-            <input type = "text" name = "last_name" />
-            <br><br>
-            <input type="password" name="pass">
-          </form>
-        </div>
+    <form>
+      <div class="mb-3">
+        <label for=" sampleInputEmail" class="form-label">Username</label>
+        <input
+          type="email"
+          class="form-control"
+          id=" sampleInputEmail"
+          aria-describedby="emailHelp"
+        />
       </div>
-    </div>
-    
+      <div class="mb-3">
+        <label for="sampleInputPassword" class="form-label">Password</label>
+        <input type="password" class="form-control" id="sampleInputPassword" />
+      </div>
+      <div class="mb-3 form-check">
+        <input type="checkbox" class="form-check-input" id="sampleCheck" />
+        <label class="form-check-label" for="sampleCheck">Remember me</label>
+      </div>
+      <button type="submit" class="btn btn-primary">Log in</button>
+    </form>
   </body>
 </html>

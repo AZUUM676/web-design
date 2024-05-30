@@ -1,0 +1,56 @@
+ANSWER1
+To link Bootstrap to your web pages, we need to include the Bootstrap CSS and JavaScript files in the <head>
+   section of your HTML document. Here's the steps
+
+1.  we first Download Bootstrap: 
+   - Visit the official Bootstrap website and download the Bootstrap files (CSS and JavaScript).
+
+2. Include Bootstrap in your HTML file:
+   - Open your HTML file in a text editor.
+   - Add the following code in the <head> section of your HTML document to link the Bootstrap CSS file:
+     html
+     <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+     
+     Replace "path/to/bootstrap/css/bootstrap.min.css" with the actual path to your downloaded Bootstrap CSS file.
+
+   - Next, include the Bootstrap JavaScript file by adding this code before the closing </body> tag:
+     html
+     <script src="path/to/bootstrap/js/bootstrap.min.js"></script>
+
+     ANSWER2
+     To create columns on your web pages using Bootstrap, you can utilize the grid
+      system provided by Bootstrap. The grid system allows you to 
+      divide your page into rows and columns,
+       making it easy to create responsive layouts.
+
+Here's an example of how you can create columns using Bootstrap:
+
+html
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <!-- Content for the first column -->
+        </div>
+        <div class="col-md-6">
+            <!-- Content for the second column -->
+        </div>
+    </div>
+</div>
+
+ANSWER 3
+To include a container, row, and a column with a width of 4
+ units on large screens (col-lg-4) in Bootstrap,
+  you can follow this example:
+
+html
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4">
+            <!-- Content for the column with a width of 4 units on large screens -->
+        </div>
+    </div>
+</div>
+
+
+
+

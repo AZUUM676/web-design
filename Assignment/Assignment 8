@@ -1,0 +1,65 @@
+SELECT FORM html
+<form>
+  <label for="cars">Choose a car:</label>
+  <select id="cars" name="car">
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="mercedes">Mercedes</option>
+    <option value="audi">Audi</option>
+  </select>
+</form>
+In this code: - The
+<form>
+  tag creates a form. - The
+  <label>
+    tag provides a label for the select element. - The
+    <select>
+      tag creates the dropdown list. - Each
+      <option>
+        tag represents an option in the dropdown list with a value attribute for
+        the server and visible text for the user.
+      </option>
+    </select></label
+  >
+</form>
+
+ANSWER 2 here's an example code snippet for checkboxes and radio buttons in
+HTML: Checkboxes: html
+<form>
+  <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike" />
+  <label for="vehicle1"> I have a bike</label><br />
+  <input type="checkbox" id="vehicle2" name="vehicle2" value="Car" />
+  <label for="vehicle2"> I have a car</label><br />
+</form>
+
+Radio Buttons: html
+<form>
+  <input type="radio" id="male" name="gender" value="male" />
+  <label for="male">Male</label><br />
+  <input type="radio" id="female" name="gender" value="female" />
+  <label for="female">Female</label><br />
+</form>
+
+In the examples above: - For checkboxes, each checkbox is created using the
+<input /> tag with type="checkbox". - For radio buttons, each radio button is
+created using the <input /> tag with type="radio". Remember to give them the
+same name attribute to make them exclusive (only one can be selected). ANSWER 3
+Here's a simple example of how you can create floating labels in HTML without
+styling: html
+<form>
+  <div style="position: relative">
+    <input type="text" id="name" required />
+    <label for="name" style="position: absolute; top: 0; left: 0">Name</label>
+  </div>
+</form>
+
+In this HTML snippet: - The
+<div>
+  element with position: relative; is used to create a relative positioning
+  context for the input field and label. - The <input /> element represents the
+  text input field. - The
+  <label>
+    element is positioned absolutely inside the
+    <div>to appear as a floating label above the input field.</div></label
+  >
+</div>
