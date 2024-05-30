@@ -1,0 +1,21 @@
+Assignment 7 was about adding navigation on our working project
+here is theoretical way on how to add navigations on a pages
+
+Define Navigation Structure: Before adding navigation to pages,
+ outline the website's structure.
+ Determine the main sections and sub-sections,
+  prioritizing user experience and logical flow.
+
+Choose Navigation Elements: Select appropriate
+ navigation elements based on the 
+website's complexity and user needs.
+ Common options include:
+
+Header Navigation: A horizontal bar at the top of
+ the page with links to main sections.
+Sidebar Navigation: A vertical menu on the side of the page for quick access to sub-sections.
+Footer Navigation: Links placed at the bottom of the page for additional
+ navigation or contact information.
+Create Navigation Links: For each page, include links to relevant 
+sections in the navigation menu.
+ Use clear and descriptive anchor text to guide users.
