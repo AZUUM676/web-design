@@ -1,0 +1,19 @@
+Carousel item and carousel inner are typically used in web 
+development to create carousel 
+components that allow you to display multiple images or 
+slides in a rotating manner on a webpage. 
+
+- Carousel Inner: It's like the container that
+ holds all the carousel items together. It manages 
+ the layout and positioning of the carousel items
+  within the carousel component. Think of it as the main
+   structure that organizes how the carousel items are displayed.
+
+- Carousel Item: These are the individual slides
+ or images within the carousel. Each carousel item 
+ represents a distinct piece of content that you want
+  to display in the carousel. The carousel item holds the 
+  
+  specific content like images, text, or
+   other media that you want to showcase to your webpage visitors.
+
