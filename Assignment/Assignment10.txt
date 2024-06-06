@@ -1,0 +1,20 @@
+To define constants in PHP, you can use the define() function.
+ Constants are identifiers (names) for values that remain 
+ the same throughout the execution of a script. Here are
+  three examples of defining constants in PHP:
+
+php
+// Example 1: Define a constant for the value of pi
+define("PI", 3.14159);
+
+// Example 2: Define a constant for the maximum number of login attempts
+define("MAX_LOGIN_ATTEMPTS", 3);
+
+// Example 3: Define a constant for the name of the shoe store
+define("STORE_NAME", "MyShoeStore");
+
+
+In the examples above, define() is used to create constants with names
+ (e.g., PI, MAX_LOGIN_ATTEMPTS, STORE_NAME) and corresponding values. 
+ Once defined, constants cannot be changed or
+ redefined during the script's execution.
