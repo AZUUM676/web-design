@@ -1,0 +1,19 @@
+1. $_GET Example:
+php
+$id = $_GET['id'];
+$name = $_GET['name'];
+$page = $_GET['page'];
+
+2. $_POST Example:
+php
+$username = $_POST['username'];
+$email = $_POST['email'];
+$password = $_POST['password'];
+
+
+3 $_SERVER Example:
+php
+$serverName = $_SERVER['SERVER_NAME'];
+$serverIP = $_SERVER['SERVER_ADDR'];
+$requestMethod = $_SERVER['REQUEST_METHOD'];
+
