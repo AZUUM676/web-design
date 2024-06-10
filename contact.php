@@ -2,13 +2,13 @@
 <html lang="en">
 
 <head>
-  
+
   <title>contact</title>
   <link rel="stylesheet" href="bootstrap/css/bootstrap-reboot.min.css" />
 </head>
 
 <body>
-  <form action="" method="post">
+  <form action="processorContact.php" method="GET">
     <div class="container">
       <label style="color: rgb(112, 34, 214); font-size: larger; margin-left: 25px; b">
         Form</label>
