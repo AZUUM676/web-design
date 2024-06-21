@@ -8,10 +8,10 @@
 </head>
 
 <body>
-  <form action="processorContact.php" method="GET">
+  <form action="processContact.php" method="POST">
     <div class="container">
       <label style="color: rgb(112, 34, 214); font-size: larger; margin-left: 25px; b">
-        Form</label>
+      </label>
       <br />
       <br />
       <div>
@@ -23,20 +23,13 @@
         <label for="lname">last name:</label>
         <input type="text" id="lname" name="lname" required />
       </div>
-      <br />s
-      <div>
-        <label for="dbirth">Date Birth:</label>
-        <input type="date" id="dbirth" name="dbirth" required />
-      </div>
+      <br />
+
+
       <br />
       <div>
-        <label for="pass">password:</label>
-        <input type="text" id="pass" name="word" maxlength="10" required />
-      </div>
-      <br />
-      <div>
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email" maxlength="10" required />
+        <label for="email">email:</label>
+        <input type="text" id="email" name="email" maxlength="30" required />
       </div>
       <br />
       <div>
@@ -44,18 +37,7 @@
         <input type="number" id="phone" name="number" maxlength="10" required />
       </div>
       <br />
-      <div>
-        <label for="gander">Gender:</label>
 
-        <label for="mr.">Mr.</label>
-        <input type="radio" id="mr." name="title" />
-
-        <label for="mrs.">Mrs.</label>
-        <input type="radio" id="mrs." name="title" />
-
-        <label for="phD.">phD.</label>
-        <input type="radio" id="phD." name="title" />
-      </div>
 
       <br />
 
